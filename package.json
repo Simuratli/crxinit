@@ -1,0 +1,47 @@
+{
+  "name": "chromify",
+  "version": "1.0.0",
+  "description": "A CLI tool to scaffold modern Chrome extensions using React, Vite, and TypeScript.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "chromify": "./src/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "chrome-extension",
+    "cli",
+    "boilerplate",
+    "react",
+    "vite",
+    "typescript",
+    "scaffold",
+    "chromify"
+  ],
+  "author": "Simuratli <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Simuratli/chromify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Simuratli/chromify/issues"
+  },
+  "homepage": "https://github.com/Simuratli/chromify#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.5",
+    "inquirer": "^13.4.3",
+    "kleur": "^4.1.5",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}

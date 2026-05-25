@@ -1,0 +1,32 @@
+.container {
+  padding: 24px;
+  width: 320px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f0fdfa 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: #22223b;
+}
+
+.desc {
+  font-size: 15px;
+  color: #4a5568;
+  margin: 12px 0 0 0;
+  text-align: center;
+}
