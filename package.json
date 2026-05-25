@@ -1,11 +1,11 @@
 {
-  "name": "chromify",
+  "name": "crxinit",
   "version": "1.0.0",
   "description": "A CLI tool to scaffold modern Chrome extensions using React, Vite, and TypeScript.",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "chromify": "./src/index.js"
+    "crxinit": "./src/index.js"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
@@ -19,18 +19,18 @@
     "vite",
     "typescript",
     "scaffold",
-    "chromify"
+    "crxinit"
   ],
   "author": "Eljan Simuratli <simuratli@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Simuratli/chromify"
+    "url": "https://github.com/Simuratli/crxinit"
   },
   "bugs": {
-    "url": "https://github.com/Simuratli/chromify/issues"
+    "url": "https://github.com/Simuratli/crxinit/issues"
   },
-  "homepage": "https://github.com/Simuratli/chromify#readme",
+  "homepage": "https://github.com/Simuratli/crxinit#readme",
   "dependencies": {
     "fs-extra": "^11.3.5",
     "inquirer": "^13.4.3",

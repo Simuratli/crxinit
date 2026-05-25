@@ -1,6 +1,6 @@
-// Background script for Chromify
+// Background script for crxinit
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('[Chromify] Extension installed!');
+  console.log('[crxinit] Extension installed!');
 });
 
 // Example: Listen for messages

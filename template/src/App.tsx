@@ -4,15 +4,15 @@ import "./scss/app.scss";
 
 function App() {
   return (
-    <div className="chromify-container">
+    <div className="crxinit-container">
       <img
         src="/assets/icon48.png"
-        alt="Chromify Logo"
-        className="chromify-logo"
+        alt="crxinit Logo"
+        className="crxinit-logo"
       />
-      <h1 className="chromify-title">Welcome!</h1>
-      <p className="chromify-desc">
-        I am <b>Chromify</b>, your extension boilerplate.<br />Let's build something awesome!
+      <h1 className="crxinit-title">Welcome!</h1>
+      <p className="crxinit-desc">
+        I am <b>crxinit</b>, your extension boilerplate.<br />Let's build something awesome!
       </p>
     </div>
   );

@@ -1,4 +1,4 @@
-# Chromify – Chrome Extension Boilerplate
+# crxinit – Chrome Extension Boilerplate
 
 A modern, professional boilerplate for building Chrome Extensions with React, Vite, and TypeScript.
 

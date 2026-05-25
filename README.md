@@ -1,7 +1,9 @@
 
-# Chromify
 
-Chromify is a modern Chrome extension boilerplate powered by React, Vite, and TypeScript. It helps you quickly scaffold and develop browser extensions with best practices and a fast toolchain.
+# crxinit
+
+
+crxinit is a modern Chrome extension boilerplate powered by React, Vite, and TypeScript. It helps you quickly scaffold and develop browser extensions with best practices and a fast toolchain.
 
 ## Features
 
@@ -14,16 +16,16 @@ Chromify is a modern Chrome extension boilerplate powered by React, Vite, and Ty
 
 ### 1. Installation
 
-Install Chromify globally:
+Install crxinit globally:
 
 ```sh
-npm install -g chromify
+npm install -g crxinit
 ```
 
 Create a new extension project:
 
 ```sh
-chromify my-extension
+crxinit my-extension
 cd my-extension
 npm install
 npm run dev
@@ -54,21 +56,21 @@ Then load the `dist/` folder as an unpacked extension in Chrome:
 
 ### contentScript.ts
 ```ts
-// Content script for Chromify
-console.log("[Chromify] Content script loaded!");
+// Content script for crxinit
+console.log("[crxinit] Content script loaded!");
 
 // Example: Highlight all <h1> elements
 Array.from(document.querySelectorAll('h1')).forEach(el => {
   el.style.background = '#ffe066';
-  el.innerText += ' (highlighted by Chromify)';
+  el.innerText += ' (highlighted by crxinit)';
 });
 ```
 
 ### background.ts
 ```ts
-// Background script for Chromify
+// Background script for crxinit
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('[Chromify] Extension installed!');
+  console.log('[crxinit] Extension installed!');
 });
 
 // Example: Listen for messages
